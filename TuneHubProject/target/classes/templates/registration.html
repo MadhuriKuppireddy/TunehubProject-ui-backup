@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+<link rel="stylesheet" href="registration.css">
+</head>
+<body>
+	<div class="wrapper">
+	<form  action="/register" method="post">
+		<h2>Registration From</h2>
+		<br/>
+		<label>Username:</label>
+		<input type="text" name="username" />
+		<br><br>
+		
+		<label>Email:</label>
+		<input type="email" name="email" />
+		<br><br>
+		
+		<label>Password:</label> 
+		<input type="password" name="password" /> 
+		<br><br>
+		
+		<label>Gender:</label> 
+		<input type="radio" value="male" name="gender" />
+		<label>Male</label> 
+		<input type="radio" value="female" name="gender" /> 
+		<label>Female</label> 
+		<input type="radio" value="other" name="gender" /> 
+		<label>Others</label> 
+		<br><br> 
+		
+		<label>Role:</label> 
+		<input type="radio" value="admin" name="role" /> 
+		<label>Admin</label> 
+		<input type="radio" value="customer" name="role" /> 
+		<label>Customer</label> 
+		<br><br> 
+		
+		<label>Address:</label>
+		<textarea name="address"></textarea>
+		<br><br>
+		
+		 <input type="submit" class="btn" value="SUBMIT">
+
+	</form>
+	</div>
+</body>
+</html>
